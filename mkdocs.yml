@@ -1,0 +1,28 @@
+site_name: Task Management API
+site_description: A FastAPI-based microservice following the 12-Factor App methodology
+site_author: Developer
+
+repo_url: https://github.com/yourusername/task-management-api
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.emoji
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - API Reference: api-reference.md
+  - 12-Factor Principles: 12-factor.md
