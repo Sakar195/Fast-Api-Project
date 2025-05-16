@@ -39,8 +39,8 @@ A FastAPI-based microservice following the 12-Factor App methodology for managin
 1. Clone the repository:
 
    ```
-   git clone <repository-url>
-   cd task-management-api
+   git clone https://github.com/Sakar195/Fast-Api-Project.git
+   cd fast-api-project
    ```
 
 2. Create a virtual environment:
